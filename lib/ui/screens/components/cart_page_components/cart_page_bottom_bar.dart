@@ -3,7 +3,6 @@ import 'package:bitirme_projesi/data/data/strings.dart';
 import 'package:bitirme_projesi/data/entitiy/cart.dart';
 import 'package:bitirme_projesi/ui/cubit/cart_page_cubit.dart';
 import 'package:bitirme_projesi/ui/screens/cart_approve_pade.dart';
-import 'package:bitirme_projesi/ui/screens/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
