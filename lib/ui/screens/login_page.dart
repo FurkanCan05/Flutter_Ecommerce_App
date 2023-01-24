@@ -63,7 +63,7 @@ class _InputsState extends State<Inputs> {
         emailInput.text != "" &&
         addressInput.text != "") {
       UserData.name = nameInput.text;
-      UserData.email = emailInput.text;
+      UserData.email = emailInput.text + currentMail;
       UserData.address = addressInput.text;
 
       var sp = await SharedPreferences.getInstance();
